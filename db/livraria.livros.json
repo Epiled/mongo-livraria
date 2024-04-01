@@ -1,0 +1,22 @@
+[{
+  "_id": {
+    "$oid": "657d52206b045f597bc113a0"
+  },
+  "titulo": "O senhor doa anéis",
+  "editora": "Classics",
+  "preco": 10,
+  "paginas": 200
+},
+{
+  "_id": {
+    "$oid": "657df4f6aadae8d83d5abca5"
+  },
+  "titulo": "O senhor doa anéis",
+  "autor": {
+    "nome": "JRR Tolkien",
+    "nacionalidade": "África do Sul",
+    "_id": {
+      "$oid": "657df4b7aadae8d83d5abca1"
+    }
+  }
+}]

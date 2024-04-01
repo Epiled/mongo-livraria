@@ -7,5 +7,3 @@ async function conecaNaDatabase() {
 };
 
 export default conecaNaDatabase;
-
-

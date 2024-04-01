@@ -1,0 +1,142 @@
+{
+	"info": {
+		"_postman_id": "8cc9fd18-4472-4ed2-becb-982c0c6e10d2",
+		"name": "📚 Livros - API - 1",
+		"description": "**API** de **CRUD REST** para consumir e modificar o arquivo _**\"livros.json\"**_, que é usado como base de dados.\n\nFoi construida durante o curso [Node.js: continue seu projeto full stack criando uma API com Express](https://www.alura.com.br/curso-online-node-primeira-api-express).",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "27288965"
+	},
+	"item": [
+		{
+			"name": "Buscar Livros",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8000/livros/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"livros",
+						""
+					]
+				},
+				"description": "Busca todos os localizados no arquivo _**\"livros.json\"**_."
+			},
+			"response": []
+		},
+		{
+			"name": "Buscar Livros por ID",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8000/livros/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"livros",
+						"1"
+					]
+				},
+				"description": "Busca um único livro com base no parametro de **ID** passado na **URL** da requisição **HTTP**."
+			},
+			"response": []
+		},
+		{
+			"name": "Criar Livro",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"id\": \"4\",\r\n    \"nome\": \"Livro de elétrica\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8000/livros",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"livros"
+					]
+				},
+				"description": "Cria um livro no arquivo _**\"livros.json\"**_, é necessário passar um objeto **JSON** com **id** e **nome** no corpo da requisição, ambos do tipo **string.**"
+			},
+			"response": []
+		},
+		{
+			"name": "Modificar Livro",
+			"request": {
+				"method": "PATCH",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"nome\": \"Livro de elétrica e manutenção\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8000/livros/4",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"livros",
+						"4"
+					]
+				},
+				"description": "Modifica um único livro no arquivo _**\"livros.json\"**_, é necessário passar um número de **ID** como parametro na **URL** da requisição **HTTP**.\n\nTambém é necessário passar um objeto **JSON** com as modificações do livro no corpo da requisição."
+			},
+			"response": []
+		},
+		{
+			"name": "Deletar Livro",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8000/livros/4",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"livros",
+						"4"
+					]
+				},
+				"description": "Deleta um único livro no arquivo _**\"livros.json\"**_, com base no parametro de **ID** passado na **URL** da requisição **HTTP**."
+			},
+			"response": []
+		}
+	]
+}
