@@ -8,7 +8,7 @@ Projeto do curso <a href="https://www.alura.com.br/curso-online-node-js-api-rest
 | :label: Tecnologias | node, js, express, nodemon, mongodb, postman
 
 <!-- Inserir imagem com a #vitrinedev ao final do link -->
-![alura-event-tracker](https://github.com/Epiled/Alura-Event-Tracker/assets/55258483/ae2e768e-09a4-4cec-b3e0-1dedc9e7a532#vitrinedev)
+![mongo-api-livraria](https://github.com/Epiled/mongo-livraria/assets/55258483/962da911-abf0-4c0c-a48e-4756cf6e3821#vitrinedev)
 
 <h2 id="detalhes-do-projeto"> 📃 Detalhes do projeto </h2>
 
@@ -39,6 +39,8 @@ e pode exigir a criação de contas em ferramentas.
    * [Detalhes do projeto](#detalhes-do-projeto)
    * [Tópicos Desenvolvidos](#topicos-curso)
    * [Demonstração](#demonstracao)
+      * [Livros](#livros)
+      * [Autores](#autores)
    * [Pré-Requisito](#pre-requisito)
    * [Instalação](#instalacao)
    * [Como usar](#como-usar)
@@ -58,7 +60,13 @@ e pode exigir a criação de contas em ferramentas.
 
 <h2 id="demonstracao"> 👀 Demonstração </h2>
 
-https://github.com/Epiled/Alura-Event-Tracker/assets/55258483/a243fd0a-762a-4848-b96b-97de661b85b9
+<h3 id="livros"> Livros </h3>
+
+https://github.com/Epiled/mongo-livraria/assets/55258483/07d65771-ac8f-41a5-a7b0-eb1ad8283b00
+
+<h3 id="autores"> Autores </h3>
+
+https://github.com/Epiled/mongo-livraria/assets/55258483/d9e9cd41-8191-4d2c-abf9-137f542a9bde
 
 <h2 id="pre-requisito"> 🚨 Pré-requisito </h2>
 <ul>
